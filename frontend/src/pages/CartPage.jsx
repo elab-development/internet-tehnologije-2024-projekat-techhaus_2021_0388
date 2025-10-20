@@ -14,7 +14,7 @@ import { FaTrash } from 'react-icons/fa';
 import { addToCart, removeFromCart } from '../slices/cartSlice';
 import Meta from '../components/Meta';
 import Message from '../components/Message';
-
+//poruku uvozimo
 const CartPage = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
