@@ -1,9 +1,7 @@
 import asyncHandler from '../middleware/asyncHandler.js';
 import Product from '../models/Product.model.js';
+//kreiranje proizvodaa kontrolera
 
-// @desc        Create new empty product
-// @route       POST /api/products
-// @access      Private/Admin
 const createProduct = asyncHandler(async (req, res) => {
   const product = new Product({
     name: 'Sample name',
@@ -21,9 +19,7 @@ const createProduct = asyncHandler(async (req, res) => {
   res.status(201).json(createdProduct);
 });
 
-// @desc        Fetch all products
-// @route       GET /api/products
-// @access      Public
+
 const getProducts = asyncHandler(async (req, res) => {
   const pageSize = 8;
   const page = Number(req.query.pageNumber) || 1;
