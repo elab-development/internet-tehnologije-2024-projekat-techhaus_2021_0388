@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Cookies from 'js-cookie';
-
+//amazon
 import { getAmazonProduct } from '../utils/amazonApi';
 
 const AdBanner = () => {
