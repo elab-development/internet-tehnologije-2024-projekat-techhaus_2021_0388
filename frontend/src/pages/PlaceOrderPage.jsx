@@ -13,7 +13,7 @@ import Meta from '../components/Meta';
 import CheckoutSteps from '../components/CheckoutSteps';
 import Loader from '../components/Loader';
 import Message from '../components/Message';
-
+//placanje
 const PlaceOrderPage = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
