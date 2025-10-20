@@ -1,9 +1,8 @@
 import asyncHandler from '../middleware/asyncHandler.js';
 import Category from '../models/Category.model.js';
 
-// @desc        Create new category
-// @route       POST /api/categories
-// @access      Private/Admin
+//kontroler ya kategorije 
+
 const createCategory = asyncHandler(async (req, res) => {
   const { name } = req.body;
   const category = new Category({ name });
@@ -11,9 +10,6 @@ const createCategory = asyncHandler(async (req, res) => {
   res.status(201).json(createdCategory);
 });
 
-// @desc        Fetch all categories
-// @route       GET /api/categories
-// @access      Public
 const getAllCategories = asyncHandler(async (req, res) => {
   const categories = await Category.find({});
   res.status(200).json(categories);
