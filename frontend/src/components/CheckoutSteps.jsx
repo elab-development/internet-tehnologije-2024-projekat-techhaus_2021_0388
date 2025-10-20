@@ -2,7 +2,7 @@ import { Badge, Nav, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { MdOutlineLocalShipping, MdOutlinePayments } from 'react-icons/md';
 import { IoBagCheckOutline, IoCartOutline } from 'react-icons/io5';
-
+//placanje i koraci
 const CheckoutSteps = ({ step1, step2, step3, step4 }) => {
   return (
     <Nav className='d-flex flex-row justify-content-center mb-4'>
