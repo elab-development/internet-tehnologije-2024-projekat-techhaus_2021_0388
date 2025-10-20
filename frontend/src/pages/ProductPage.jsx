@@ -12,7 +12,7 @@ import {
   FormLabel,
 } from 'react-bootstrap';
 import { toast } from 'react-toastify';
-
+//product
 import {
   useGetProductDetailsQuery,
   useCreateReviewMutation,
