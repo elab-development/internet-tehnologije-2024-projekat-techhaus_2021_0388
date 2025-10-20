@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
-
+//nalog korisnika
 const UserSchema = new mongoose.Schema(
   {
     name: {
