@@ -11,7 +11,7 @@ import { setCredentials } from '../slices/authSlice';
 import Meta from '../components/Meta';
 import Loader from '../components/Loader';
 import Message from '../components/Message';
-
+//profil korisnika
 const ProfilePage = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
