@@ -9,7 +9,7 @@ import { setCredentials } from '../slices/authSlice';
 import Meta from '../components/Meta';
 import FormContainer from '../components/FormContainer';
 import Loader from '../components/Loader';
-
+//registracija
 const RegisterPage = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
