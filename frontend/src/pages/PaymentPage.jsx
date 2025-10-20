@@ -9,7 +9,7 @@ import { savePaymentMethod } from '../slices/cartSlice';
 import Meta from '../components/Meta';
 import FormContainer from '../components/FormContainer';
 import CheckoutSteps from '../components/CheckoutSteps';
-
+//placanje
 const PaymentPage = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
