@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
-
+//pocetna
 import { useGetProductsQuery } from '../slices/productsApiSlice';
 import Product from '../components/Product';
 import Loader from '../components/Loader';
