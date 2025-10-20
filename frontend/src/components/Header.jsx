@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Navbar, Nav, Container, Badge, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { FaLock, FaShoppingCart, FaUser } from 'react-icons/fa';
-
+//za karticu
 import { useLogoutMutation } from '../slices/usersApiSlice';
 import { logout } from '../slices/authSlice';
 import { resetCart } from '../slices/cartSlice';
