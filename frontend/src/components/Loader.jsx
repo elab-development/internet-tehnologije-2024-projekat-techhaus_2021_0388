@@ -1,5 +1,5 @@
 import { Spinner } from 'react-bootstrap';
-
+//ya ucitavanje
 const Loader = ({ size = '100px' }) => {
   return (
     <Spinner
