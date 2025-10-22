@@ -1,7 +1,7 @@
 import asyncHandler from '../middleware/asyncHandler.js';
 import Order from '../models/Order.model.js';
 
-// porudzbina kontroler
+
 const addOrderItems = asyncHandler(async (req, res) => {
   const {
     orderItems,
